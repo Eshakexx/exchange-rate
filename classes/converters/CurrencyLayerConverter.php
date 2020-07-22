@@ -1,8 +1,9 @@
 <?php
 
-namespace classes;
+namespace Classes\Converters;
 
 use OceanApplications\currencylayer\client as CurrencyLayerClient;
+use Classes\Services\ParentConverter;
 
 class CurrencyLayerConverter extends ParentConverter
 {
