@@ -1,6 +1,6 @@
 $("[data-acttion='calculate']" ).on( "click", function() {
     $.ajax({
-        url: 'index.php?mod=convert',
+        url: 'index.php?action=convert',
         data: {
             value: $('[data-container="value"]').val(),
             currency : $('[data-container="select-currency"]').val(),

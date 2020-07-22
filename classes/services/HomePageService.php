@@ -6,10 +6,16 @@ use Classes\Converters\CurrencyLayerConverter;
 
 class HomePageService
 {
-    public function convertCurrency(): void
+    public function showOutcome(): void
     {
-        $value = $mod = !empty($_GET['value']) ? $_GET['value'] : 0;
-        $currency = $mod = !empty($_GET['currency']) ? $_GET['currency'] : 0;
+        $value = $_GET['value'] ?? 0;
+        $currency = $_GET['currency'] ?? '';
+
+        if (!$currency || !$value) {
+            echo 0;
+            exit;
+        }
+
         echo (new CurrencyLayerConverter())->convert($value, $currency);
         exit;
     }

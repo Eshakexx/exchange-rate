@@ -6,11 +6,11 @@ use Classes\System;
 use Classes\Application\HomePageService;
 
 System::load();
-$mod = isset($_GET['mod']);
+$action = isset($_GET['action']);
 $homePageService = new HomePageService();
 
-if ($mod == 'convert') {
-    $homePageService->convertCurrency();
+if ($action == 'convert') {
+    $homePageService->showOutcome();
 }
 
 $homePageService->showMainPage();
