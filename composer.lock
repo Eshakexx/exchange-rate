@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9f55945bfbad2b6f0e28de1571cefcbd",
+    "packages": [
+        {
+            "name": "oceanapplications/currencylayer-php-client",
+            "version": "1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oceanapplications/currencylayer-php-client.git",
+                "reference": "79a0a5e7fe51a49a1617b99a12eec663b3a5be89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oceanapplications/currencylayer-php-client/zipball/79a0a5e7fe51a49a1617b99a12eec663b3a5be89",
+                "reference": "79a0a5e7fe51a49a1617b99a12eec663b3a5be89",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OceanApplications\\currencylayer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ocean Applications",
+                    "email": "oceanapplications@gmail.com"
+                }
+            ],
+            "description": "Currencylayer API PHP client",
+            "keywords": [
+                "currencylayer"
+            ],
+            "time": "2017-11-14T20:39:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

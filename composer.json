@@ -1,0 +1,5 @@
+{
+  "require" : {
+    "oceanapplications/currencylayer-php-client": "^1.4"
+  }
+}
